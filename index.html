@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dushyant.Info</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<link rel="stylesheet" type="text/css" href="assets/css/stickit_main.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="assets/css/stickit_extensions.css" media="screen" />
+	</head>
+	<body class="loading"><img width=100% src="./assets/css/images/IMG_0651.jpg" />
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Dushyant Kumar Kashyap</h1>
+						<p>VFX TD &nbsp;&bull;&nbsp; Developer &nbsp;&bull;&nbsp; Persevere</p>
+						<nav>
+							<ul>
+								<li><a href="https://github.com/dushyantk?tab=repositories" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://www.youtube.com/channel/UC6k-Jkr4HYfJeK5LcmU3vIQ" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+								<li><a href="https://uk.linkedin.com/in/dushyantkashyap" class="icon fa-linkedin"><span class="label">Dribbble</span></a></li>
+								<!--<li><a href="https://twitter.com/dushyantk" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+								<!--<li><a href="https://www.facebook.com/kdushyant" class="icon fa-facebook"><span class="label">Facebook</span></a></li>-->
+								<!--<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Dushyant Kumar Kashyap. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
+
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	<!-- *************************** -->
+	<!-- START COPYING FROM HERE     -->
+	<!-- *************************** -->
+
+	<!-- Trigger inputs for hiding and showing the footer -->
+	<input id="show-footer" type="radio" name="hide-show" />
+	<input id="hide-footer" type="radio" name="hide-show" />
+
+	<!-- Sticky footer -->
+	<footer id="stickit" class="collapsable">
+
+		<!-- Trigger labels for hiding and showing the footer -->
+		<label for="hide-footer" class="icon hide-lb entypo-down-circled"></label>
+		<label for="show-footer" class="icon show-lb"></label>
+
+		<!-- Trigger input for opening hidden menu -->
+		<input id="expand-content" type="checkbox" name="expand" />
+
+		<!-- Inner footer elements -->
+		<div class="footer-inner">
+
+			<!-- Home icon -->
+			<a class="home entypo-home" href="#"></a>
+
+			<!-- Contact menu -->
+			<div class="lvl-0">
+				<!-- Menu main item -->
+				<a class="main-item" href="#">Contact<span class="entypo-plus"></span></a>
+				<!-- Level 1 menu -->
+				<div class="lvl-1 left">
+					<div class="box arrow bottom left fixed w-487">
+						<div class="row">
+							<div class="row pd-30">
+								<div class="title large">Hey there</div>
+								<p class="medium">Fill this form to send me a quick mail.</p>
+								<div class="clr mt-20"></div>
+								<!-- Contact form -->
+								<form name="contact" id="contact" method="post">
+									<!-- Name input -->
+									<div class="field fluid w-100">
+										<input name="name" placeholder="Your name" type="text" id="name" required />
+										<span class="entypo-user icon"></span>
+										<span class="stickit-tip field">Enter your name</span>
+									</div>
+									<div class="clr mt-10"></div>
+									<!-- Email input -->
+									<div class="field fluid w-100">
+										<input name="email" placeholder="your@domain.com" type="email" id="email" required />
+										<span class="entypo-mail icon"></span>
+										<span class="stickit-tip field">Enter valid email</span>
+									</div>
+									<div class="clr mt-10"></div>
+									<!-- Subject input -->
+									<div class="field fluid w-100">
+										<select name="subject" id="subject" class="grayed" onClick="this.className=this.options[this.selectedIndex].className">
+											<option value="" disabled="disabled" selected="selected" class="disabled">Subject</option>
+											<option value="General question">1. Presales question</option>
+											<option value="Tech support">2. Warranty and support</option>
+											<option value="Other">3. Other</option>
+										</select>
+										<div id="arrow-select"></div>
+										<svg id="arrow-select-svg"></svg>
+										<span class="entypo-book icon"></span>
+										<span class="stickit-tip field">Choose subject</span>
+									</div>
+									<div class="clr mt-10"></div>
+									<!-- Message input -->
+									<div class="field fluid w-100">
+										<textarea name="message" placeholder="Write your message here" id="message" required></textarea>
+										<span class="stickit-tip field">Your message</span>
+									</div>
+									<div class="clr mt-20"></div>
+									<!-- Send button -->
+									<input type="submit" value="Send" class="send fl-left" form="contact" name="send" />
+									<!-- Message copy button -->
+									<input type="checkbox" id="send-copy" name="send-copy" checked="checked" />
+									<label for="send-copy" class="tick fl-right mt-5"><span>Send me a copy of this message</span></label>
+								</form>
+							</div>
+						</div>
+						<!-- Menu title -->
+						<div class="title menu"><span class="icon entypo-paper-plane"></span>Contact me</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Trigger label for opening hidden menu -->
+			<div class="lvl-0 hide-it">
+				<!-- Menu main item -->
+				<div class="main-item">
+					<label for="expand-content" class="icon expand-lb"></label>
+					<span class="entypo-plus"></span>
+				</div>
+			</div>
+
+			<!-- Social icons -->
+			<div class="social fl-right">
+				<!-- Facebook -->
+				<a href="https://www.facebook.com/limbeshwar" class="icon has-tip entypo-thumbs-up"><span class="stickit-tip main">Programmer's Limbo</span></a>
+				<!-- Twitter -->
+				<a href="https://twitter.com/dushyantk" class="icon has-tip entypo-twitter"><span class="stickit-tip main">Follow me on Twitter</span></a>
+				<!-- Google -->
+				<a href="https://github.com/dushyantk?tab=repositories" class="icon has-tip fa-git"><span class="stickit-tip main">My code on github</span></a>
+			</div>
+
+		</div>
+		<!-- / Inner footer elements -->
+
+		<!-- Expanded menu -->
+		<section id="hidden-menu">
+			<!-- Expanded content -->
+			<article class="hidden-content">
+				<div class="row mt-30">
+					<div class="title large">Hey, you found my Re`sume`</div>
+					<div class="clr mt-10"></div>
+					<p class="small"><b><iframe src="https://docs.google.com/document/d/1u2CD6HZrtxQI4Q58x418Dod1oPIZX8DPg3HRD5U-DOg/pub?embedded=true"></iframe></b><br />
+					Hope all this is not too boring.</p>
+				</div>
+				<div class="clr mt-20"></div>
+				<!-- Fluid row 1 -->
+				<div class="row">
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+				</div>
+				<!-- Fluid row 2 -->
+				<div class="row">
+					<div class="fluid w-32"><p class="demo-fluid">32%</p></div>
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+				</div>
+				<!-- Fluid row 3 -->
+				<div class="row">
+					<div class="fluid w-49"><p class="demo-fluid">49%</p></div>
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+				</div>
+				<!-- Fluid row 4 -->
+				<div class="row">
+					<div class="fluid w-66"><p class="demo-fluid">66%</p></div>
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+				</div>
+				<!-- Fluid row 5 -->
+				<div class="row">
+					<div class="fluid w-83"><p class="demo-fluid">83%</p></div>
+					<div class="fluid w-15"><p class="demo-fluid">15%</p></div>
+				</div>
+				<!-- Fluid row 6 -->
+				<div class="row">
+					<div class="fluid w-100"><p class="demo-fluid">100%</p></div>
+				</div>
+				<div class="clr mt-30"></div>
+			</article>
+		</section>
+		<!-- / Expanded menu -->
+
+	</footer>
+	<!-- / Sticky footer -->
+
+	<!-- *************************** -->
+	<!-- END COPYING HERE            -->
+	<!-- *************************** -->
+	</body>
+</html>

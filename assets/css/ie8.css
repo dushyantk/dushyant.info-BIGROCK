@@ -1,0 +1,57 @@
+/*
+	Aerial by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Header */
+
+	#header nav a {
+		position: relative;
+		border: solid 1px #fff;
+		border-radius: 100%;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+		#header nav a:before {
+			border: 0;
+		}
+
+/* Footer */
+
+	#footer {
+		background-image: url("images/ie/footer.png");
+		background-position: bottom left;
+		background-repeat: repeat-x;
+	}
+#stickit a.home {
+	color: #b11a1a;
+	font-size: 24px;
+	width: auto;
+	height: auto;
+	background: none;
+}
+#stickit a.home:hover {
+	background: none;
+	color: #fff;
+}
+#stickit .arrow:before {
+	display: none;
+}
+#stickit .fluid {
+	margin: 1% 0 1% 2%;
+}
+#stickit .fluid:first-child {
+	margin-left: 0;
+}
+#stickit .field {
+	margin-left: 0;
+}
+#stickit label.hide-lb,
+#stickit label.show-lb {
+	display: none;
+}
+#stickit .hide-it,
+#stickit .has-tabs {
+	display: none;
+}
